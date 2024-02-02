@@ -1,6 +1,6 @@
 # Azure Cross Tenant Storage
 
-This repo contains terraform code to demonstrate how private endpoints can be used to allow resources in one tenant and subscription to access a storage account in another tenant and subscription.
+This repo contains terraform code to demonstrate how private endpoints can be used to allow resources in one tenant and subscription to access a storage account in another tenant and subscription without the need to peer virtual networks or add any external networking configuration e.g. VPN.
 
 This will also work if the subscriptions are in the same tenant. They only have to be in the same region.
 
